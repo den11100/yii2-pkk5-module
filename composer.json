@@ -1,0 +1,32 @@
+{
+  "name": "muxtor/yii2-pkk5-module",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "pkk5",
+    "module"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ulugbek Mukhtorov",
+      "email": "muxtorsoft@mail.ru",
+      "homepage": "https://github.com/muxtor/yii2-pkk5-module",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "muxtor/yii2-pkk5-component": "~1.0.1"
+  },
+  "extra": {
+    "bootstrap": "muxtor\\pkk5module\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "muxtor\\pkk5module\\": "src"
+    }
+  }
+}
