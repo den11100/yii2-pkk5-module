@@ -17,11 +17,12 @@ if(!empty($data)){
             $kadastr->area
         ];
     }
+    echo \yii\console\widgets\Table::widget([
+        'headers' => $header,
+        'rows' => $rows
+    ]);
+}else{
+    echo "no result \n\r";
 }
-
-echo \yii\console\widgets\Table::widget([
-    'headers' => $header,
-    'rows' => $rows
-]);
 
 echo sprintf('Execution time: %0.0f ms',\Yii::getLogger()->getElapsedTime()*1000);
