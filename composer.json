@@ -28,7 +28,7 @@
     "psr-4": {
       "muxtor\\pkk5module\\": "src"
     }
-  }
+  },
   "repositories": [
        {
            "type": "composer",
